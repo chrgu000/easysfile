@@ -1,0 +1,32 @@
+测试服务器（微信）
+120.24.161.197
+  administrator 
+mokuang2017
+测试域名
+www.gzfesco.cn
+测试公众号
+公司铛铛饭堂微信号:
+账号：dangdangfantang@easys.co
+密码：easys2015
+
+
+易式科技微信开放平台：
+账号：rosin@easys.co
+密码：easys2019
+
+
+
+
+
+svn https://192.168.1.168/svn/标准化互动项目/AWu
+
+平台相关的文档都放这里
+https://192.168.1.168/svn/标准化互动项目/Doc  
+
+用户名 awu
+密码   awu2019
+
+
+邮箱 bixiaowu@easys.co
+密码 1983727
+

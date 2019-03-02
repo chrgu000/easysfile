@@ -1,0 +1,77 @@
+ip     114.215.206.212
+端口   8147
+用户   root
+密码   QAZwsx123456jin
+www   目录 /vber/vber
+nginx 目录 /alidata/server/nginx
+
+
+/stat   直播管理页面            http://114.215.206.212/stat
+/record  记录一些flv文件        
+
+
+mysql:
+用户 root
+密码 84ddb43223
+数据库  vber
+
+http://adminvber.easys.co/phpMyAdmin
+
+
+http://adminvber.easys.co/btladmin/
+admin easys123
+
+
+微信端登录地址
+http://wxvber.easys.co/index.php?r=site/mologin
+（微信4s店等登录地址）
+http://wxvber.easys.co/index.php?r=site/login&type=user
+
+
+http://adminvber.easys.co/btlexecute/
+v1536        123               4s店
+启辰东区     123               督导
+意澳         123               执行公司
+景睿         123               执行公司
+电声         1234567           执行公司
+
+公众平台账号：
+账号：easyswx@easys.co 
+密码：easys2016
+
+
+智能体验馆流程：
+4s INSERT INTO `vber_activity_date` (`activity_description`, `activity_start_date`, `activity_end_date`, `activity_id`, `activity_days`, `activity_month`, `activity_area`) VALUES ('4s点本地测试', '2019-01-18', '2019-01-28', 19, 11, '2019-01', '东区')
+
+SELECT * FROM `vber_activity_company` WHERE `member_id`=679//先找到景睿公司
+然后company_id=`execution_id`, 
+
+SELECT * FROM `vber_activity_driver` WHERE (`activity_id`='19') AND (`activity_area`='东区')在找到司机编号driver_id 73 72
+
+
+INSERT INTO `vber_activity_order` (`remark`, `activity_id`, `activity_date_id`, `order_number`, `auto_status`, `auto_remark`, `status`, `status_title`, `star_g`, `star_f`, `member_id`, `store_id`, `store_name`, `create_time`, `modify_time`, `execution_id`, `execution_name`, `driver_id`, `driver_name`) VALUES ('南区', 19, 565, '20190128034323', 0, '初始化', 0, '申报成功等待系统编排通知结果', '10001', '10086', 661, 661, '启辰泰安嘉信泰山', '2019-01-28 03:43:23', '2019-01-28 03:43:23', 298, '景睿', 73, '高文鹏')
+
+
+督导 UPDATE `vber_activity_order` SET `modify_time`='2019-01-27 14:37:45', `auto_status`=1, `auto_remark`='系统自动分配', `system_isok`=1 WHERE `order_id`='1695'
+
+UPDATE `vber_activity_order` SET `status`=1, `status_title`='申报已经通过，等待执行公司确认', `modify_time`='2019-01-27 15:09:17', `system_status`=1, `system_status_title`='确认编排' WHERE `order_id`='1695'
+
+
+执行公司  
+UPDATE `vber_activity_order` SET `status`=41, `status_title`='专车接单，准备出发', `modify_time`='2019-01-27 15:23:46', `executio_status`=1, `executio_status_title`='专车接单，准备出发' WHERE `order_id`='1695'
+
+小篷车流程：
+
+4s INSERT INTO `vber_activity_order` (`remark`, `activity_id`, `activity_date_id`, `order_number`, `star_f`, `is_m50v`, `status`, `status_title`, `member_id`, `store_id`, `create_time`, `modify_time`) VALUES ('11111', 18, 351, '20190128014714', '11111', NULL, 0, '申报成功等待系统编排通知结果', 661, 661, '2019-01-28 01:47:14', '2019-01-28 01:47:14')
+
+INSERT INTO `vber_activity_orderstatus` (`order_id`, `title`, `status`, `status_title`, `create_time`, `modify_time`) VALUES (1697, '申报成功等待系统编排通知结果', 0, '申报成功等待系统编排通知结果', '2019-01-28 01:47:15', '2019-01-28 01:47:15')
+
+INSERT INTO `vber_case` (`case_title`, `case_content`, `case_image`, `supplier_id`, `case_publish_time`, `case_attachment_path`, `case_state`, `case_publisher_id`, `case_publisher_name`) VALUES ('11111', '11111', 'http://wxvber.easys.co/static/resource/common/images/index-car.jpg', 1697, '1548640035', NULL, 2, '661', 'V1536')
+
+
+修改大区
+UPDATE `vber_activity_company` SET `company_phone`='', `activity_area`='测试区', `modify_time`='2019-01-28 02:50:15' WHERE `company_id`=278
+
+
+
+
