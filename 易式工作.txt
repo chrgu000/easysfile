@@ -1,7 +1,7 @@
 测试服务器（微信）
 120.24.161.197
   administrator 
-mokuang2017
+Ywp19830221
 测试域名
 www.gzfesco.cn
 测试公众号
