@@ -1,7 +1,8 @@
 测试服务器（微信）
 120.24.161.197
-  administrator 
-Ywp19830221
+ 6666  administrator 
+EasysMageframe2019
+
 测试域名
 www.gzfesco.cn
 测试公众号
@@ -13,9 +14,6 @@ www.gzfesco.cn
 易式科技微信开放平台：
 账号：rosin@easys.co
 密码：easys2019
-
-
-
 
 
 svn https://192.168.1.168/svn/标准化互动项目/AWu
