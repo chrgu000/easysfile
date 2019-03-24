@@ -5,10 +5,18 @@ EasysMageframe2019
 
 测试域名
 www.gzfesco.cn
+
 测试公众号
 公司铛铛饭堂微信号:
 账号：dangdangfantang@easys.co
 密码：easys2015
+
+服务器2：120.24.101.247
+密码 Yanwenping1983
+venucia.easys.co
+
+
+
 
 
 易式科技微信开放平台：
