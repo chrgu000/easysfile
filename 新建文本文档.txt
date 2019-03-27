@@ -1,0 +1,33 @@
+¼ªÀû·þÎñÆ÷µÇÂ½ÓòÕËºÅ£ºe-licheng/Group0311
+
+
+cp /usr/local/apache/bin/apachectl /etc/init.d/httpd
+/etc/init.d/httpd graceful
+
+
+https://10.86.71.26
+
+ssh -p 22 root@192.168.1.1
+
+1qaz!QAZ
+
+
+apt-get install build-essential
+apt-get -y install libmcrypt-dev
+
+./configure --prefix=/opt/php \
+--with-config-file-path=/opt/php \
+--with-pdo-mysql=mysqlnd \
+--with-apxs2=/opt/apache/bin/apxs \
+--enable-mbstring \
+--with-curl \
+--with-gd 
+
+make 
+
+
+EXTRA_LIBS = -lcrypt -lz -lresolv -lcrypt -lpq -lrt -lpq -lpng -lz -ljpeg -lcurl -lrt -lm -ldl -lnsl -lxml2 -lzlcurl -lxml2 -lz -lm -lxml2 -lz -lm -lcrypt -lxml2 -lz -lm -lxml2 -lz -lm -lxml2 -lz -lm -lcrypt
+
+Changing the last "-lcrypt" to "-lcrypto" resolved the problem:
+
+EXTRA_LIBS = -lcrypt -lz -lresolv -lcrypt -lpq -lrt -lpq -lpng -lz -ljpeg -lcurl -lrt -lm -ldl -lnsl -lxml2 -lzlcurl -lxml2 -lz -lm -lxml2 -lz -lm -lcrypt -lxml2 -lz -lm -lxml2 -lz -lm -lxml2 -lz -lm -lcrypto
