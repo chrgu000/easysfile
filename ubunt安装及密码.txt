@@ -1,13 +1,25 @@
 吉利服务器登陆域账号：e-licheng/Group0311
 
 
+
+
+sql-mode=ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+
+
 cp /usr/local/apache/bin/apachectl /etc/init.d/httpd
 /etc/init.d/httpd graceful
+
+//安装rewrite
+a2enmod rewrite
+service apache2 restart
+systemctl status apache2
 
 
 https://10.86.71.26
 
 ssh -p 22 root@192.168.1.1
+
+scp root@10.86.53.196: /root/fileauth.txt /root/fileauth.txt
 
 1qaz!QAZ
 
