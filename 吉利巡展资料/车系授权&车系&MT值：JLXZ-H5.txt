@@ -1,0 +1,22 @@
+1、经销商授权车系关系：
+     接口名：dealerService/getNtBbDealersWebModles
+     返回内容：@ApiModelProperty("经销商ID")
+    private Integer dealerId;
+
+    @ApiModelProperty("经销商代码")
+    private String dealerCode;
+
+
+    @ApiModelProperty("网络部车系代码")
+    private String webSeriesCode;
+
+    @ApiModelProperty("网络部车系名称")
+    private String webSeriesName;
+
+2、车系基础信息：
+    接口名：dealerService/getNtBbVsWebModles
+    返回内容：@ApiModelProperty("网络部车系代码")
+    private String webSeriesCode;
+
+    @ApiModelProperty("网络部车系名称")
+    private String webSeriesName;
