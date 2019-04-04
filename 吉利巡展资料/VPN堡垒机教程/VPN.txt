@@ -1,0 +1,14 @@
+用户名：域账号用户名（不需要加@geely.com）、密码字符严格区分大小写。）
+密码：域账号密码
+vpn客户端软件安装文件及手册：
+https://oa.geely.com/it/Lists/UsefulTools/AllItems.aspx
+下载Frortinet客户端及补丁.rar 
+或者  https://www.forticlient.com/downloads
+请按照操作手册进行安装，如在使用VPN安装和使用过程中遇到任何问题，请当地信息服务部进行支持。
+集团总部信息服务部请联系：0571-28098880 （内线：688880）
+邮箱：itservice@geely.com
+Skype for business: 信息工程中心_集团总部
+
+如果连接vpn失败，提示“您连接的服务器请求身份认证，请选择一个证书然后重试”
+解决方法如下：打开IE浏览器，设置---Internet选项---高级---勾选全部带TLS的选项---确定
+然后重新连接vpn
