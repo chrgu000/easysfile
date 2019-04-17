@@ -1,4 +1,4 @@
-select count(*) as count from user where  createdate>1555344000 and createdate <  1555430400;
+select count(*) as count from user where  createdate>1555430400 and createdate <  1555516800
 
 
  select count(*) as count from playedrecord where isaward = 1 and createtime>1555344000 and createtime <  1555430400;  
