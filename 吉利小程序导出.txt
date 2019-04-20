@@ -4,3 +4,6 @@ select count(*) as count from user where  createdate>1555430400 and createdate <
  select count(*) as count from playedrecord where isaward = 1 and createtime>1555344000 and createtime <  1555430400;  
 
  select count(*) as count from playedrecord where  addtion= 1 and createtime>1555344000 and createtime <  1555430400;  
+
+
+吉利(小程序)今晚要拉出数据来.详细留资信息和统计数据(总人数,礼品分发数)
