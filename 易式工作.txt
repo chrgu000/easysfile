@@ -10,6 +10,7 @@ www.gzfesco.cn
 公司铛铛饭堂微信号:
 账号：dangdangfantang@easys.co
 密码：easys2015
+服务器地址：http://www.gzfesco.cn/wechat/index/index/
 
 服务器2：120.24.101.247
 密码 Yanwenping1983
@@ -24,7 +25,7 @@ Easys2016
 
 易式科技微信开放平台：
 账号：rosin@easys.co
-密码：easys2019
+密码：easys2018
 
 svn https://192.168.1.168/svn/标准化互动项目/AWu
 
