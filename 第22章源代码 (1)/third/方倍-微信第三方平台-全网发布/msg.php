@@ -1,60 +1,36 @@
 <?php
-/*
-    方倍工作室 http://www.fangbei.org/
-    CopyRight 2015 All Rights Reserved
-*/
 
-define("TOKEN", "weixin");
-define("AppID", "wx1234567890abcdef");
-define("EncodingAESKey", "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFG");
-require_once('wxBizMsgCrypt.php');
+require_once('config.php');
+require_once('crypt/wxBizMsgCrypt.php');
 
 $wechatObj = new wechatCallbackapiTest();
 $wechatObj->logger(' http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'].(empty($_SERVER['QUERY_STRING'])?"":("?".$_SERVER['QUERY_STRING'])));
-if (!isset($_GET['echostr'])) {
+if (isset($_GET['signature'])) {
     $wechatObj->responseMsg();
-}else{
-    $wechatObj->valid();
 }
+
 
 class wechatCallbackapiTest
 {
-    //验证签名
-    public function valid()
-    {
-        $echoStr = $_GET["echostr"];
-        $signature = $_GET["signature"];
-        $timestamp = $_GET["timestamp"];
-        $nonce = $_GET["nonce"];
-        $token = TOKEN;
-        $tmpArr = array($token, $timestamp, $nonce);
-        sort($tmpArr);
-        $tmpStr = implode($tmpArr);
-        $tmpStr = sha1($tmpStr);
-        if($tmpStr == $signature){
-            echo $echoStr;
-            exit;
-        }
-    }
-
     //响应消息
     public function responseMsg()
     {
+        $signature  = $_GET['signature'];
 		$timestamp  = $_GET['timestamp'];
 		$nonce = $_GET['nonce'];
+        $encrypt_type = $_GET['encrypt_type'];
 		$msg_signature  = $_GET['msg_signature'];
-		$encrypt_type = (isset($_GET['encrypt_type']) && ($_GET['encrypt_type'] == 'aes')) ? "aes" : "raw";
         $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
         if (!empty($postStr)){
 			//解密
-			if ($encrypt_type == 'aes'){
-				$pc = new WXBizMsgCrypt(TOKEN, EncodingAESKey, AppID);				
+            if ($encrypt_type == 'aes'){
+				$pc = new WXBizMsgCrypt(Token, EncodingAESKey, AppID);
 				$this->logger(" D \r\n".$postStr);
                 $decryptMsg = "";  //解密后的明文
                 $errCode = $pc->DecryptMsg($msg_signature, $timestamp, $nonce, $postStr, $decryptMsg);
 				$postStr = $decryptMsg;
 			}
-			
+
             $this->logger(" R \r\n".$postStr);
             $postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
             $RX_TYPE = trim($postObj->MsgType);
@@ -66,11 +42,7 @@ class wechatCallbackapiTest
                     $result = $this->receiveEvent($postObj);
                     break;
                 case "text":
-                    if (strstr($postObj->Content, "第三方")){
-                        $result = $this->relayPart3("http://discuz.comli.com/test.php".'?'.$_SERVER['QUERY_STRING'], $postStr);
-                    }else{
-                        $result = $this->receiveText($postObj);
-                    }
+                    $result = $this->receiveText($postObj);
                     break;
                 case "image":
                     $result = $this->receiveImage($postObj);
@@ -98,7 +70,6 @@ class wechatCallbackapiTest
 				$result = $encryptMsg;
 				$this->logger(" E \r\n".$result);
 			}
-            $this->logger(" R \r\n".$result);
             echo $result;
         }else {
             echo "";
@@ -138,7 +109,8 @@ class wechatCallbackapiTest
                 $content = "扫描场景 ".$object->EventKey;
                 break;
             case "LOCATION":
-                $content = "上传位置：纬度 ".$object->Latitude.";经度 ".$object->Longitude;
+                // $content = "上传位置：纬度 ".$object->Latitude.";经度 ".$object->Longitude;
+                $content = $object->Event."from_callback";
                 break;
             case "scancode_waitmsg":
                 $content = "扫码带提示：类型 ".$object->ScanCodeInfo->ScanType." 结果：".$object->ScanCodeInfo->ScanResult;
@@ -179,57 +151,39 @@ class wechatCallbackapiTest
     private function receiveText($object)
     {
         $keyword = trim($object->Content);
-        //多客服人工回复模式
-        if (strstr($keyword, "您好") || strstr($keyword, "你好") || strstr($keyword, "在吗") || strstr($keyword, "客服")){
-            $result = $this->transmitService($object);
+        if (strstr($keyword, "TESTCOMPONENT_MSG_TYPE_TEXT")){
+            // $content = "这是个文本消息";
+            $content = $keyword."_callback";
+        }else if(strstr($keyword, "QUERY_AUTH_CODE")){
+            $content = "";
+            //调用客服接口发送消息
+            // <Content><![CDATA[QUERY_AUTH_CODE:queryauthcode@@@vxXY_z946RStZLZQG7oiuiG7CFogny_kI-PJ2f6Mix6D6PmNAGMJ0p_811zAAjHuC-ubEHHLdqom2p6VOp7awg]]></Content>
+            $authorization_code = str_replace("QUERY_AUTH_CODE:","",$keyword);
+            $this->logger(" authorization_code ".$authorization_code);
+            require_once('wxthird.class.php');
+            $weixin = new class_wxthird();
+            $authorization = $weixin->query_authorization($authorization_code);
+            $this->logger(" authorization ".$authorization);
+            $openid = $_GET['openid'];
+            $this->logger(" openid ".$openid);
+            $authorizer_access_token = $authorization["authorization_info"]["authorizer_access_token"];
+            $this->logger(" authorizer_access_token ".$authorizer_access_token);
+            $result = $weixin->send_custom_message($openid, "text", $authorization_code."_from_api", $authorizer_access_token);
+            $this->logger(" result ".$result);
+        }else{
+            $content = date("Y-m-d H:i:s",time())."\n".$object->FromUserName."\n技术支持 方倍工作室";
         }
-        //自动回复模式
-        else{
-            if (strstr($keyword, "文本")){
-                $content = "这是个文本消息";
-			}else if (strstr($keyword, "表情")){
-                $content = "中国：".$this->bytes_to_emoji(0x1F1E8).$this->bytes_to_emoji(0x1F1F3)."\n仙人掌：".$this->bytes_to_emoji(0x1F335);
-            }else if (strstr($keyword, "单图文")){
-                $content = array();
-                $content[] = array("Title"=>"单图文标题",  "Description"=>"单图文内容", "PicUrl"=>"http://discuz.comli.com/weixin/weather/icon/cartoon.jpg", "Url" =>"http://m.cnblogs.com/?u=txw1958");
-            }else if (strstr($keyword, "图文") || strstr($keyword, "多图文")){
-                $content = array();
-                $content[] = array("Title"=>"多图文1标题", "Description"=>"", "PicUrl"=>"http://discuz.comli.com/weixin/weather/icon/cartoon.jpg", "Url" =>"http://m.cnblogs.com/?u=txw1958");
-                $content[] = array("Title"=>"多图文2标题", "Description"=>"", "PicUrl"=>"http://d.hiphotos.bdimg.com/wisegame/pic/item/f3529822720e0cf3ac9f1ada0846f21fbe09aaa3.jpg", "Url" =>"http://m.cnblogs.com/?u=txw1958");
-                $content[] = array("Title"=>"多图文3标题", "Description"=>"", "PicUrl"=>"http://g.hiphotos.bdimg.com/wisegame/pic/item/18cb0a46f21fbe090d338acc6a600c338644adfd.jpg", "Url" =>"http://m.cnblogs.com/?u=txw1958");
-            }else if (strstr($keyword, "音乐")){
-                $content = array();
-                $content = array("Title"=>"最炫民族风", "Description"=>"歌手：凤凰传奇", "MusicUrl"=>"http://121.199.4.61/music/zxmzf.mp3", "HQMusicUrl"=>"http://121.199.4.61/music/zxmzf.mp3");
-			}else if(strstr($keyword, "图片")){
-				$weixin = new class_weixin();
-				$upload_result = $weixin->upload_media("image", "winter.jpg");
-				$send_result = $weixin->send_custom_message($openid, $upload_result['type'], array('media_id'=>$upload_result['media_id']));
-			}else if(strstr($keyword, "语音")){
-				$weixin = new class_weixin();
-				$upload_result = $weixin->upload_media("voice", "invite.mp3");
-				$send_result = $weixin->send_custom_message($openid, $upload_result['type'], array('media_id'=>$upload_result['media_id']));
-			}else if(strstr($keyword, "视频")){
-                $weixin = new class_weixin();
-				$upload_video_result = $weixin->upload_media("video", "bbb.mp4");
-				$upload_thumb_result = $weixin->upload_media("thumb", "pondbay.jpg");
-				$data = array("media_id"=>$upload_video_result['media_id'], "thumb_media_id"=>$upload_thumb_result['thumb_media_id']);
-				$send_result = $weixin->send_custom_message($openid, $upload_video_result['type'], $data);
-            }else if(strstr($keyword, "?")){
-                $content = date("Y-m-d H:i:s",time())."\n".$object->FromUserName."\n技术支持 方倍工作室";
-            }else{
-				$content = "";
-			}
 
-            if(is_array($content)){
-                if (isset($content[0])){
-                    $result = $this->transmitNews($object, $content);
-                }else if (isset($content['MusicUrl'])){
-                    $result = $this->transmitMusic($object, $content);
-                }
-            }else{
-                $result = $this->transmitText($object, $content);
+        if(is_array($content)){
+            if (isset($content[0])){
+                $result = $this->transmitNews($object, $content);
+            }else if (isset($content['MusicUrl'])){
+                $result = $this->transmitMusic($object, $content);
             }
+        }else{
+            $result = $this->transmitText($object, $content);
         }
+
         return $result;
     }
 
@@ -420,58 +374,16 @@ $item_str    </Articles>
         return $result;
     }
 
-    //回复多客服消息
-    private function transmitService($object)
-    {
-        $xmlTpl = "<xml>
-    <ToUserName><![CDATA[%s]]></ToUserName>
-    <FromUserName><![CDATA[%s]]></FromUserName>
-    <CreateTime>%s</CreateTime>
-    <MsgType><![CDATA[transfer_customer_service]]></MsgType>
-</xml>";
-        $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time());
-        return $result;
-    }
-
-    //回复第三方接口消息
-    private function relayPart3($url, $rawData)
-    {
-        $headers = array("Content-Type: text/xml; charset=utf-8");
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-        curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $rawData);
-        $output = curl_exec($ch);
-        curl_close($ch);
-        return $output;
-    }
-
-	//字节转Emoji表情
-	function bytes_to_emoji($cp)
-	{
-		if ($cp > 0x10000){		# 4 bytes
-			return chr(0xF0 | (($cp & 0x1C0000) >> 18)).chr(0x80 | (($cp & 0x3F000) >> 12)).chr(0x80 | (($cp & 0xFC0) >> 6)).chr(0x80 | ($cp & 0x3F));
-		}else if ($cp > 0x800){	# 3 bytes
-			return chr(0xE0 | (($cp & 0xF000) >> 12)).chr(0x80 | (($cp & 0xFC0) >> 6)).chr(0x80 | ($cp & 0x3F));
-		}else if ($cp > 0x80){	# 2 bytes
-			return chr(0xC0 | (($cp & 0x7C0) >> 6)).chr(0x80 | ($cp & 0x3F));
-		}else{					# 1 byte
-			return chr($cp);
-		}
-	}
-
     //日志记录
-    private function logger($log_content)
+    public function logger($log_content)
     {
         if(isset($_SERVER['HTTP_APPNAME'])){   //SAE
             sae_set_display_errors(false);
             sae_debug($log_content);
             sae_set_display_errors(true);
-        }else if($_SERVER['REMOTE_ADDR'] != "127.0.0.1"){ //LOCAL
+        }else if($_SERVER['REMOTE_ADDR'] != "127.0.0.222"){ //LOCAL
             $max_size = 500000;
-            $log_filename = "log.xml";
+            $log_filename = "msg.xml";
             if(file_exists($log_filename) and (abs(filesize($log_filename)) > $max_size)){unlink($log_filename);}
             file_put_contents($log_filename, date('Y-m-d H:i:s').$log_content."\r\n", FILE_APPEND);
         }

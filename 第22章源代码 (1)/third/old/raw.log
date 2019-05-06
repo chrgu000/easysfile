@@ -1,0 +1,39 @@
+18:11:03 http://open.daoqidata.com/wxopen/msg.php?appid=/wx570bc396a51b8ff8&signature=e9984ad20ffeada68fdee58a38e971e6bfe60c42&timestamp=1465294268&nonce=477599244&openid=ozy4qt1eDxSxzCr0aNT0mXCWfrDE&encrypt_type=aes&msg_signature=fd84df23865ad98397627ae93cdc46b5c3a75ce3
+18:11:03 <xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[xyBSywefSfmLNJ9aRDlXvPOUkTc+vDmFaK+tJBaMDjq2xXBl+9aRLYGyioLkeftOpLWZd0ovKAFokWii7PTG7G6N1zrw4ico3rKtA38nFxpwujxdTlzee/9O8vn5PwB09HpZk4LM6ldqYtgM9bF52vtDRUNFZZwfLSO+MH/3eXcyj30H5ZJSfXFsWW/cYHGtsSflZhEsbemCLMbWo3/6lG7+shGevRiRCPZv7H2z9qLcKsq87sughQYAsQtbZKBDEKvzYqbDUDmE/6Fcga9GylU1eggA5GhNTF7/DcuLQQz0kDIGZdGqkTEt0YG6DHxUnja0m6ecLWoaggW2WweEotZlvoZdrjX2gxkT2XlGWHilK9FV9bk5/Grc3nQCs6QIT3ipYGvDRQaGUaSPUlSKwOb0qg1xQZYjkaX7Sv6la7D93TI+A2gt7ERerVOTCBtbHfF5RR4ipYyC5O+5Q9V3m29YO1u7lBsTTdtkbcTsXXre0bt8bSuHVzDjIY0zXazKdfxDwN3riTPDMZ7j4cKoHbLqY6Vfm3iD+4ucSS7KveNH9aTlz+e8Ay1pVwQjSjD5I/0WgZ/XO+n0B+N/e7cOXw==]]></Encrypt>
+</xml>
+
+18:11:03 _GET: Key: appid; Value: /wx570bc396a51b8ff8
+18:11:03 _GET: Key: signature; Value: e9984ad20ffeada68fdee58a38e971e6bfe60c42
+18:11:03 _GET: Key: timestamp; Value: 1465294268
+18:11:03 _GET: Key: nonce; Value: 477599244
+18:11:03 _GET: Key: openid; Value: ozy4qt1eDxSxzCr0aNT0mXCWfrDE
+18:11:03 _GET: Key: encrypt_type; Value: aes
+18:11:03 _GET: Key: msg_signature; Value: fd84df23865ad98397627ae93cdc46b5c3a75ce3
+18:11:11 http://open.daoqidata.com/wxopen/msg.php?appid=/wx570bc396a51b8ff8&signature=4f23ccd457923c2b4a21e7bf87bc8806018f6b84&timestamp=1465294275&nonce=18013766&openid=ozy4qt1eDxSxzCr0aNT0mXCWfrDE&encrypt_type=aes&msg_signature=597edccfbf458bfb11614fb95151d942088d9dfe
+18:11:11 <xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[/jW746dgrdj/6WOMRNzJ+uJ8aC1Xkt+JzwKLLWbGBTNvvZdNb27fcUHWaYFVal9gfyzQyrq9Vj4AW4B+CNmXt5RrrTS+c3VEGFUQRCjFEXB3v5fyDagctEy399Q32VUB4Hmq2IFtwtEANGVWw3oikBmWWxZjF4n2wInz4q/s7CXsyUj9+Wp2OhGom3HJn6780MxvLP27ry+Z/+w5dkktr/hHZ4jZdwr+R8EO3U3QAvpn2WvV0kcHfxdiGdE+i026th5SzCDOrF1hjon55WB7EX8B4JxfeZDBLFtxBEw/zsqeubhPJF/FhhbbRAm/Kno57g42+rR5aM1UkO+99y9DWTmsEPsF7/Qvxu8M8z73B9j2EjyT7fahoDQpvyllAtdnvjYuC0c6NYiipufVpcMtqP6UeXeF5xQG9PJw/CaL/thcYFX0olNdu/69tCuQMe15JLbXo2lipwnNZ0HSxaKJMA==]]></Encrypt>
+</xml>
+
+18:11:11 _GET: Key: appid; Value: /wx570bc396a51b8ff8
+18:11:11 _GET: Key: signature; Value: 4f23ccd457923c2b4a21e7bf87bc8806018f6b84
+18:11:11 _GET: Key: timestamp; Value: 1465294275
+18:11:11 _GET: Key: nonce; Value: 18013766
+18:11:11 _GET: Key: openid; Value: ozy4qt1eDxSxzCr0aNT0mXCWfrDE
+18:11:11 _GET: Key: encrypt_type; Value: aes
+18:11:11 _GET: Key: msg_signature; Value: 597edccfbf458bfb11614fb95151d942088d9dfe
+18:11:17 http://open.daoqidata.com/wxopen/msg.php?appid=/wx570bc396a51b8ff8&signature=8a3a3e4b148a7f2ec25e14e909895d5b20de8f0f&timestamp=1465294281&nonce=1330430767&openid=ozy4qt1eDxSxzCr0aNT0mXCWfrDE&encrypt_type=aes&msg_signature=ed2715e81a3e8d69b384510f4eb59b33b916ad4c
+18:11:17 <xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[n3OUervjfuKgxOmsyorccsSFLONdjdfs2+oky0BRjwwC7AmMWhVD0vpJoKcC4tXkaXgvme49ZcRihJuK+O3qbLrZ8LUP5mBbyREQfcSatv/Lz6tuQk2AIRLIQyLmdyX5OhbgSYJm7xNDLBKZAzU7a1qXFmB3h0oHRaBEkyvn+7NwXZH2ZWNIBuMUmGNFm6J092HVGkPOePt24Tyml/xBSYSFhs7mo3C+I3KD4RBBuy7tM68y0ZJx0lGWz/lUA6scstaBdBkHlj5JyA5+pD7IMmB8ECIzCJXcZ3a28Wn0xXM9Eji742mbT1zf9yhLE5awskRSJTrjNxBoDEkfhILORspYCcN4R+IaNCrOhRxBmQm3NZ+ws/oPODY0ZwXchDUBkwHHkdJ23X9HzOvuIrlO1Ti75TaJrWZHbUnQs96IaHgncOayLw3ShNfb9KmS2Ei9+VTOBeOgyX3kA8axAgCn12ZKbn4x5X5JqbIzYz/2BL/s+/NnQ0cHafY7vSmTntuj]]></Encrypt>
+</xml>
+
+18:11:17 _GET: Key: appid; Value: /wx570bc396a51b8ff8
+18:11:17 _GET: Key: signature; Value: 8a3a3e4b148a7f2ec25e14e909895d5b20de8f0f
+18:11:17 _GET: Key: timestamp; Value: 1465294281
+18:11:17 _GET: Key: nonce; Value: 1330430767
+18:11:17 _GET: Key: openid; Value: ozy4qt1eDxSxzCr0aNT0mXCWfrDE
+18:11:17 _GET: Key: encrypt_type; Value: aes
+18:11:17 _GET: Key: msg_signature; Value: ed2715e81a3e8d69b384510f4eb59b33b916ad4c

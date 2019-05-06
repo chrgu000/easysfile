@@ -1,0 +1,419 @@
+2016-06-13 10:52:32 http://open.daoqidata.com/wxopen/msg.php?appid=/wx570bc396a51b8ff8&signature=591d2862d11a7931232bab6fda92a5717669c916&timestamp=1465786357&nonce=770297380&openid=ozy4qt1eDxSxzCr0aNT0mXCWfrDE&encrypt_type=aes&msg_signature=23b8741cf54407d4ca059d1434d6b7eb790037ee
+2016-06-13 10:52:32 D 
+<xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[3YlWHqTdRlM2YYJh0MvGzg5mStJFzqAQWzhFlEZRo3s7V6rfNK3iEm7SOxe7X/8N96m/75jp2lVdY4q8gNWlIjojLyihvMgENulLulcFaQ1K0fkZio+HuGYqqJqC7M4AbM61BFPtsMvFg6aVBQ/PlNGLyl6YU/ilhfU5xMj6E+opPs3SK7paZVYQuM2UZ8XT6EVnQTJ//wvMMf/x1ftOwXFULZQL0TZZgdTTbWPS3RhP2qVMAHmaJG50lZ72/9a3DjMEXC3GuiMfVFCXKdyJ6jM9BEYKvSAOk6ZwdpnquR6W+pCiDm6LdyxIVYMNFI/Hq75AaPlBE/tqY4fxMPCBEfnpaA1JLIDWoQ5ElU+LL8GTj7z+/IW6VcHSf6ufooNLpISZiM6aBeecC03ybNtrPUjb8+1TmHco5GB5IOI52pPItCl638LFUNUndhyvTpaUDm6D3c5sa25QkHrYBbJJAzNiI38MeiIbaLF+IM2O7iqFByyfjni3uOi1YaVDRSAtcTr6jvqhoD1iA4d/vouZEA5UQca1pTO/FPxLX5T/R1RikXW1bZk/zxkQecYsT2YGKKhbmVyGkDqt2WMwO3MRBw==]]></Encrypt>
+</xml>
+
+2016-06-13 10:52:32 R 
+<xml><ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+<FromUserName><![CDATA[ozy4qt1eDxSxzCr0aNT0mXCWfrDE]]></FromUserName>
+<CreateTime>1465786356</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[QUERY_AUTH_CODE:queryauthcode@@@vxXY_z946RStZLZQG7oiuiG7CFogny_kI-PJ2f6Mix6D6PmNAGMJ0p_811zAAjHuC-ubEHHLdqom2p6VOp7awg]]></Content>
+<MsgId>6295504462347446579</MsgId>
+</xml>
+2016-06-13 10:52:32 E 
+<xml>
+<Encrypt><![CDATA[Uog+Mu6g53qK9ler4Pyk0AD2lHC0J1+RkqchpZyI8CSPKiyUC8zmaMZmrSaV1ZI3GmdU62Dcqf9kVCfp7zJvfg==]]></Encrypt>
+<MsgSignature><![CDATA[73a7a572701c5ec460257aaae53d2552588049ed]]></MsgSignature>
+<TimeStamp>1465786352</TimeStamp>
+<Nonce><![CDATA[770297380]]></Nonce>
+</xml>
+2016-06-13 10:52:32 R 
+<xml>
+<Encrypt><![CDATA[Uog+Mu6g53qK9ler4Pyk0AD2lHC0J1+RkqchpZyI8CSPKiyUC8zmaMZmrSaV1ZI3GmdU62Dcqf9kVCfp7zJvfg==]]></Encrypt>
+<MsgSignature><![CDATA[73a7a572701c5ec460257aaae53d2552588049ed]]></MsgSignature>
+<TimeStamp>1465786352</TimeStamp>
+<Nonce><![CDATA[770297380]]></Nonce>
+</xml>
+2016-06-13 10:52:32 D 
+<xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[3YlWHqTdRlM2YYJh0MvGzg5mStJFzqAQWzhFlEZRo3s7V6rfNK3iEm7SOxe7X/8N96m/75jp2lVdY4q8gNWlIjojLyihvMgENulLulcFaQ1K0fkZio+HuGYqqJqC7M4AbM61BFPtsMvFg6aVBQ/PlNGLyl6YU/ilhfU5xMj6E+opPs3SK7paZVYQuM2UZ8XT6EVnQTJ//wvMMf/x1ftOwXFULZQL0TZZgdTTbWPS3RhP2qVMAHmaJG50lZ72/9a3DjMEXC3GuiMfVFCXKdyJ6jM9BEYKvSAOk6ZwdpnquR6W+pCiDm6LdyxIVYMNFI/Hq75AaPlBE/tqY4fxMPCBEfnpaA1JLIDWoQ5ElU+LL8GTj7z+/IW6VcHSf6ufooNLpISZiM6aBeecC03ybNtrPUjb8+1TmHco5GB5IOI52pPItCl638LFUNUndhyvTpaUDm6D3c5sa25QkHrYBbJJAzNiI38MeiIbaLF+IM2O7iqFByyfjni3uOi1YaVDRSAtcTr6jvqhoD1iA4d/vouZEA5UQca1pTO/FPxLX5T/R1RikXW1bZk/zxkQecYsT2YGKKhbmVyGkDqt2WMwO3MRBw==]]></Encrypt>
+</xml>
+
+2016-06-13 10:52:32 R 
+<xml><ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+<FromUserName><![CDATA[ozy4qt1eDxSxzCr0aNT0mXCWfrDE]]></FromUserName>
+<CreateTime>1465786356</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[QUERY_AUTH_CODE:queryauthcode@@@vxXY_z946RStZLZQG7oiuiG7CFogny_kI-PJ2f6Mix6D6PmNAGMJ0p_811zAAjHuC-ubEHHLdqom2p6VOp7awg]]></Content>
+<MsgId>6295504462347446579</MsgId>
+</xml>
+2016-06-13 10:52:32 E 
+<xml>
+<Encrypt><![CDATA[6nVpbvR68JLA806SR9Z6GylCgBF/0YvOKbKmlru4hYzCIb5TXJyKKpBVYnwq9SpnFcoM/fjq757HZszwoZEyNA==]]></Encrypt>
+<MsgSignature><![CDATA[b3f7dfae6b48e476d0df1333ed71907f7e1a88e1]]></MsgSignature>
+<TimeStamp>1465786352</TimeStamp>
+<Nonce><![CDATA[770297380]]></Nonce>
+</xml>
+2016-06-13 10:52:32 R 
+<xml>
+<Encrypt><![CDATA[6nVpbvR68JLA806SR9Z6GylCgBF/0YvOKbKmlru4hYzCIb5TXJyKKpBVYnwq9SpnFcoM/fjq757HZszwoZEyNA==]]></Encrypt>
+<MsgSignature><![CDATA[b3f7dfae6b48e476d0df1333ed71907f7e1a88e1]]></MsgSignature>
+<TimeStamp>1465786352</TimeStamp>
+<Nonce><![CDATA[770297380]]></Nonce>
+</xml>
+2016-06-13 10:52:39 http://open.daoqidata.com/wxopen/msg.php?appid=/wx570bc396a51b8ff8&signature=fd433f3562b379c8ecc4ae6e87c74c10b2ea591d&timestamp=1465786364&nonce=1620221447&openid=ozy4qt1eDxSxzCr0aNT0mXCWfrDE&encrypt_type=aes&msg_signature=23764ce0c6c8a12b65f7368efdc7bc8ce416d96c
+2016-06-13 10:52:39 D 
+<xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[8NySmUs0lVft7TwUZYoxWsSMlink4JQsXAfyK7a81da5O0UAabGe4uV53Gzsm1b77nLmuPqgc61+r9BDMOil7ZCd6P+qT7pwRysMesTOZW1NI0y3RTUss7wEjDnlhMRypKXpmHzjb0LM9QQX5yixqmYM1kfrU1O2w8oA3Ybg6R10/1APMO5XQpfWKhWCDAVqNzRf03DVBLfg3u6EApdn7FW1h6hpNGAAd11YSG++2YnxY0V2/bu7ZnMxqopdqRvgxTu+TKS8A+VfaKKVr5NPfl5O0ijhRarOUHvz7vL9yEdx9hdk9+Isnc4SLPZp95+0IatCq0l+VRUoIHmf7X6a7os3c7qmmXiibwza3AlwBv7XSiu7WQV8J1GlQFxzp+NaFlOjJd8QPbNiVeKnwlpdbedr8ObBrIZXbeO8+UFWNnbvADrroYo19nq3w24eOFBrJL5WrB+cJUub/OP/xaOlCQ==]]></Encrypt>
+</xml>
+
+2016-06-13 10:52:39 R 
+<xml><ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+<FromUserName><![CDATA[ozy4qt1eDxSxzCr0aNT0mXCWfrDE]]></FromUserName>
+<CreateTime>1465786363</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[TESTCOMPONENT_MSG_TYPE_TEXT]]></Content>
+<MsgId>6295504492412217652</MsgId>
+</xml>
+2016-06-13 10:52:39 E 
+<xml>
+<Encrypt><![CDATA[hdq3/SAHGS67ZNPDdpN7fDhTragHwWcu/iaamRBnAnHbfXnQvOQ3EYe0Ea73PqrX/0sR4AIyACySZBweb0PcqA==]]></Encrypt>
+<MsgSignature><![CDATA[a4099b984134fa7b6731a7f0cfe6e8dbd420bbfc]]></MsgSignature>
+<TimeStamp>1465786359</TimeStamp>
+<Nonce><![CDATA[1620221447]]></Nonce>
+</xml>
+2016-06-13 10:52:39 R 
+<xml>
+<Encrypt><![CDATA[hdq3/SAHGS67ZNPDdpN7fDhTragHwWcu/iaamRBnAnHbfXnQvOQ3EYe0Ea73PqrX/0sR4AIyACySZBweb0PcqA==]]></Encrypt>
+<MsgSignature><![CDATA[a4099b984134fa7b6731a7f0cfe6e8dbd420bbfc]]></MsgSignature>
+<TimeStamp>1465786359</TimeStamp>
+<Nonce><![CDATA[1620221447]]></Nonce>
+</xml>
+2016-06-13 10:52:39 D 
+<xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[8NySmUs0lVft7TwUZYoxWsSMlink4JQsXAfyK7a81da5O0UAabGe4uV53Gzsm1b77nLmuPqgc61+r9BDMOil7ZCd6P+qT7pwRysMesTOZW1NI0y3RTUss7wEjDnlhMRypKXpmHzjb0LM9QQX5yixqmYM1kfrU1O2w8oA3Ybg6R10/1APMO5XQpfWKhWCDAVqNzRf03DVBLfg3u6EApdn7FW1h6hpNGAAd11YSG++2YnxY0V2/bu7ZnMxqopdqRvgxTu+TKS8A+VfaKKVr5NPfl5O0ijhRarOUHvz7vL9yEdx9hdk9+Isnc4SLPZp95+0IatCq0l+VRUoIHmf7X6a7os3c7qmmXiibwza3AlwBv7XSiu7WQV8J1GlQFxzp+NaFlOjJd8QPbNiVeKnwlpdbedr8ObBrIZXbeO8+UFWNnbvADrroYo19nq3w24eOFBrJL5WrB+cJUub/OP/xaOlCQ==]]></Encrypt>
+</xml>
+
+2016-06-13 10:52:39 R 
+<xml><ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+<FromUserName><![CDATA[ozy4qt1eDxSxzCr0aNT0mXCWfrDE]]></FromUserName>
+<CreateTime>1465786363</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[TESTCOMPONENT_MSG_TYPE_TEXT]]></Content>
+<MsgId>6295504492412217652</MsgId>
+</xml>
+2016-06-13 10:52:39 E 
+<xml>
+<Encrypt><![CDATA[Tll+DKuoADdREipSunV7CcYgPxwx4JmDsewSPCSbHyrwXQDxnVEWY5176a3em+nD3CcwK1FxZW91SxoQ/ZjWzw==]]></Encrypt>
+<MsgSignature><![CDATA[4841418c617c73b2b00cb3de78e20b778347dc0e]]></MsgSignature>
+<TimeStamp>1465786359</TimeStamp>
+<Nonce><![CDATA[1620221447]]></Nonce>
+</xml>
+2016-06-13 10:52:39 R 
+<xml>
+<Encrypt><![CDATA[Tll+DKuoADdREipSunV7CcYgPxwx4JmDsewSPCSbHyrwXQDxnVEWY5176a3em+nD3CcwK1FxZW91SxoQ/ZjWzw==]]></Encrypt>
+<MsgSignature><![CDATA[4841418c617c73b2b00cb3de78e20b778347dc0e]]></MsgSignature>
+<TimeStamp>1465786359</TimeStamp>
+<Nonce><![CDATA[1620221447]]></Nonce>
+</xml>
+2016-06-13 10:52:45 http://open.daoqidata.com/wxopen/msg.php?appid=/wx570bc396a51b8ff8&signature=c64018dff7252b66e0afffd0dec5c59b65c4c895&timestamp=1465786370&nonce=1228467852&openid=ozy4qt1eDxSxzCr0aNT0mXCWfrDE&encrypt_type=aes&msg_signature=89339875f74f2aae40abe239864beda17b15b015
+2016-06-13 10:52:45 D 
+<xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[fAdemFP504pbYVVyjc3EpFq59rdHPGVZk56QMydG66VyN595HSXi61bu0Qfnyq8blYkMmLuq7ruj9YEUG3egfHUsySAbRQibdg3A76SqAirsJnzuDbbErV7rgJ/u8lqedHscIF36CEOjeOtUfHuN8X/sQlRzaz10iDPX0vS6L95nC2TSdc1k6rHqme7tnz5BK87T5zeV98ybMUd8XlYC8MiJK64g+6RYD96qQEzGMtpLRDoNtP9Bm3fbZrGAEbp75ct2X48Dbe4Dxz38DTb229ATfKiyvynyt+GFMqZGzJXkN+A6cmpgerJIHbTQCnji+pK/M5AoTAUPRjtR2mej+28V2IGLYiY/aCG+MKZygHPhfZLPRLBNMjV+QHWQpuKTuz3R5mLWatsEwhOJSs71uUbYl5EMZJuKvldtZlQh0pjvbCOHPCMuJg8ser7X+t9ZfftqMJJHdK4anArHJa3jWXw4Az71kUWtUOta0GJLD7ZnIuXK8LIWZsB/AhoFX3rO]]></Encrypt>
+</xml>
+
+2016-06-13 10:52:45 R 
+<xml><ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+<FromUserName><![CDATA[ozy4qt1eDxSxzCr0aNT0mXCWfrDE]]></FromUserName>
+<CreateTime>1465786370</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>111.000000</Latitude>
+<Longitude>222.000000</Longitude>
+<Precision>333.000000</Precision>
+</xml>
+2016-06-13 10:52:45 E 
+<xml>
+<Encrypt><![CDATA[jxPY9BWFibQY9Zyq/QZGVsk1MDzsGZ7mwTW2UVO5vzVfgnQbmT3CUJ19717Sk/J2sQqvzkIY+gsD2tScD+L5ngdF6Jo/vryEARRqdGR8SgCFkxK/nutzEttSo9oHqHX+MoVkksNiQQ+upLSI04w06l1rFvReDasPtQB+zvsMQ3qcCz7tJe9RKvWti2n7yarlJR9kJ6bvgNcJBwvnFb9nS7255Sc/TH5YWuy0DmL+fArFZJoyBdoYTlusZTMaA+EbTaJY3NCjGzk0DQct4I3e0g0gsKkbI05z55LniVayDLyZ4Pa0opYUpWW3rdvi7+X9btrmOq3eKul/UVx1qtdwft/skSl+DYtN0eSDkss4uljX+/HTT0A97MH3I52K+2S8kefoE0/P/QyEAREOdujK09QCMQz8M2kNsrbSP4J0xO5KU7/QERcaefU1BoJbuKTSw160efqBlZ3acYv5w6ykrQ==]]></Encrypt>
+<MsgSignature><![CDATA[da542de3dc17a4652a3cb8439575503b7c9ba037]]></MsgSignature>
+<TimeStamp>1465786365</TimeStamp>
+<Nonce><![CDATA[1228467852]]></Nonce>
+</xml>
+2016-06-13 10:52:45 R 
+<xml>
+<Encrypt><![CDATA[jxPY9BWFibQY9Zyq/QZGVsk1MDzsGZ7mwTW2UVO5vzVfgnQbmT3CUJ19717Sk/J2sQqvzkIY+gsD2tScD+L5ngdF6Jo/vryEARRqdGR8SgCFkxK/nutzEttSo9oHqHX+MoVkksNiQQ+upLSI04w06l1rFvReDasPtQB+zvsMQ3qcCz7tJe9RKvWti2n7yarlJR9kJ6bvgNcJBwvnFb9nS7255Sc/TH5YWuy0DmL+fArFZJoyBdoYTlusZTMaA+EbTaJY3NCjGzk0DQct4I3e0g0gsKkbI05z55LniVayDLyZ4Pa0opYUpWW3rdvi7+X9btrmOq3eKul/UVx1qtdwft/skSl+DYtN0eSDkss4uljX+/HTT0A97MH3I52K+2S8kefoE0/P/QyEAREOdujK09QCMQz8M2kNsrbSP4J0xO5KU7/QERcaefU1BoJbuKTSw160efqBlZ3acYv5w6ykrQ==]]></Encrypt>
+<MsgSignature><![CDATA[da542de3dc17a4652a3cb8439575503b7c9ba037]]></MsgSignature>
+<TimeStamp>1465786365</TimeStamp>
+<Nonce><![CDATA[1228467852]]></Nonce>
+</xml>
+2016-06-13 10:52:45 D 
+<xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[fAdemFP504pbYVVyjc3EpFq59rdHPGVZk56QMydG66VyN595HSXi61bu0Qfnyq8blYkMmLuq7ruj9YEUG3egfHUsySAbRQibdg3A76SqAirsJnzuDbbErV7rgJ/u8lqedHscIF36CEOjeOtUfHuN8X/sQlRzaz10iDPX0vS6L95nC2TSdc1k6rHqme7tnz5BK87T5zeV98ybMUd8XlYC8MiJK64g+6RYD96qQEzGMtpLRDoNtP9Bm3fbZrGAEbp75ct2X48Dbe4Dxz38DTb229ATfKiyvynyt+GFMqZGzJXkN+A6cmpgerJIHbTQCnji+pK/M5AoTAUPRjtR2mej+28V2IGLYiY/aCG+MKZygHPhfZLPRLBNMjV+QHWQpuKTuz3R5mLWatsEwhOJSs71uUbYl5EMZJuKvldtZlQh0pjvbCOHPCMuJg8ser7X+t9ZfftqMJJHdK4anArHJa3jWXw4Az71kUWtUOta0GJLD7ZnIuXK8LIWZsB/AhoFX3rO]]></Encrypt>
+</xml>
+
+2016-06-13 10:52:45 R 
+<xml><ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+<FromUserName><![CDATA[ozy4qt1eDxSxzCr0aNT0mXCWfrDE]]></FromUserName>
+<CreateTime>1465786370</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>111.000000</Latitude>
+<Longitude>222.000000</Longitude>
+<Precision>333.000000</Precision>
+</xml>
+2016-06-13 10:52:45 E 
+<xml>
+<Encrypt><![CDATA[xqkrs+TEGa5bL2JCklkmMLPH4b9OwqzY9KFeVx9Jj8WEMTqznf3S6mtFKW+KFrVhHtrwKvNGgA3D28fnNkhTamAh41nY76aaLcpeaY69hJmbg9QwO4gzDJLF10YbUPuQzIsbhkdHonZe0gi5Tv1DqjLMrQit4rMtbmbOwgDUUvuMyVebtFoPVHKe9rq8bcM06w72Syxn2yP5VpmUpGM82Npi7VZf0OK/uO2yzCz4Vz6Y3R6Td7HKuucsRPJ/SYVckfHjvz7/6O6RZg5aQLY5qn87IjwcKxxWzsUIzyilJjl2FWI8HBRRdDKqsxplWH9XnutBrxoldD9rp34pI4oB3GNsT7Hm+XY2WS6b04GLFLVGXZtz02h+jpPnmHtDgLbBuTkXCFrDCtRrlndHQJee3/pKKS2XvhNplnt5etG2KMlZ9HxPpe0p9cZw+DapQqXtL1BLKJB5yI3/sYjb+E0Jtw==]]></Encrypt>
+<MsgSignature><![CDATA[de1a765aaccc6c1d9afc4c5263aa062b24ff3b0f]]></MsgSignature>
+<TimeStamp>1465786365</TimeStamp>
+<Nonce><![CDATA[1228467852]]></Nonce>
+</xml>
+2016-06-13 10:52:45 R 
+<xml>
+<Encrypt><![CDATA[xqkrs+TEGa5bL2JCklkmMLPH4b9OwqzY9KFeVx9Jj8WEMTqznf3S6mtFKW+KFrVhHtrwKvNGgA3D28fnNkhTamAh41nY76aaLcpeaY69hJmbg9QwO4gzDJLF10YbUPuQzIsbhkdHonZe0gi5Tv1DqjLMrQit4rMtbmbOwgDUUvuMyVebtFoPVHKe9rq8bcM06w72Syxn2yP5VpmUpGM82Npi7VZf0OK/uO2yzCz4Vz6Y3R6Td7HKuucsRPJ/SYVckfHjvz7/6O6RZg5aQLY5qn87IjwcKxxWzsUIzyilJjl2FWI8HBRRdDKqsxplWH9XnutBrxoldD9rp34pI4oB3GNsT7Hm+XY2WS6b04GLFLVGXZtz02h+jpPnmHtDgLbBuTkXCFrDCtRrlndHQJee3/pKKS2XvhNplnt5etG2KMlZ9HxPpe0p9cZw+DapQqXtL1BLKJB5yI3/sYjb+E0Jtw==]]></Encrypt>
+<MsgSignature><![CDATA[de1a765aaccc6c1d9afc4c5263aa062b24ff3b0f]]></MsgSignature>
+<TimeStamp>1465786365</TimeStamp>
+<Nonce><![CDATA[1228467852]]></Nonce>
+</xml>
+2016-06-13 11:25:03 http://open.daoqidata.com/wxopen/msg.php?appid=/wx570bc396a51b8ff8&signature=395ffbb8e9b2e3e0f7f2f1eb8604d2372a8e161a&timestamp=1465788307&nonce=1586857177&openid=ozy4qt1eDxSxzCr0aNT0mXCWfrDE&encrypt_type=aes&msg_signature=e04bcda2544c2cd18a33edf72dc43b06cddc01ba
+2016-06-13 11:25:03 D 
+<xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[5IrywgCXXRbgtTF+NrR2jdiXUszA7ElZEIyqmgwFB2izzkA4xcs74QPMKjmj6z3jW07/PDYBrII+Pba/OABrHqf/Hp8Pwhl/OYqcJ22fJAK/SgThVIDOmEahuOUeUO8M1/VBVnXM0ir6RWvg7go7qVxCovikfkpujw+PHxi2OkNqsstt5EAb6FokFox9VovBrM66lz9eYnP8l7z3vIHh+b9Dv4DEX8iHmtmplsCmglgZo6WrkiCnR9P5sIqB05YLoLk0IZXWBIyAzh9ia957T+L0/ezqp+DmPMTLGlLIx0iGYVvgRYvN5oNzSQMDyri5Bi8KwUsfTyu7tKXx79NrOxxi0QKSjGGO7s00ppBZiGfuD0gMpk7FDMxnnlOe03AOC3dQZKnlMO1j1+fboRtahE15/7mz1fg2Tvr6DtsRno0Zc9HGja11W0CY35Tsv1GkOJqL7b84Pxa3Z9GQMxfHF6pNGeyFxkLlGWtYx9EpUy0DKoCrA/IcIJ7xiZHisBF4OdJW9GJ10v706X/6H1QsMyx6WyEn/mrYBNVFiM6OWDBq1MK++jDAu+TlNgwc0B5eim9HGnh+TNh6L2l+eMKgPA==]]></Encrypt>
+</xml>
+
+2016-06-13 11:25:03 R 
+<xml><ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+<FromUserName><![CDATA[ozy4qt1eDxSxzCr0aNT0mXCWfrDE]]></FromUserName>
+<CreateTime>1465788306</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[QUERY_AUTH_CODE:queryauthcode@@@Wjbc1ecmo8GRKaW8yMSsSkhZSoITLygreodWjCyCJqLt32AIyaZuEgU4UTCpo779JjjtulYWJYs_h6MgpF9n1Q]]></Content>
+<MsgId>6295512837533673884</MsgId>
+</xml>
+2016-06-13 11:25:03 E 
+<xml>
+<Encrypt><![CDATA[gVaXH/NBRk/VN17RL2vdQmJbYqt4/WskmP+SVDSCM0y48FFcUKBAhbKd3rNHw/yyKXgPhV5vXk6zl2Sqn00+qg==]]></Encrypt>
+<MsgSignature><![CDATA[10cf49dcbe6927535d2ac889f536e26d3d01f958]]></MsgSignature>
+<TimeStamp>1465788303</TimeStamp>
+<Nonce><![CDATA[1586857177]]></Nonce>
+</xml>
+2016-06-13 11:25:03 R 
+<xml>
+<Encrypt><![CDATA[gVaXH/NBRk/VN17RL2vdQmJbYqt4/WskmP+SVDSCM0y48FFcUKBAhbKd3rNHw/yyKXgPhV5vXk6zl2Sqn00+qg==]]></Encrypt>
+<MsgSignature><![CDATA[10cf49dcbe6927535d2ac889f536e26d3d01f958]]></MsgSignature>
+<TimeStamp>1465788303</TimeStamp>
+<Nonce><![CDATA[1586857177]]></Nonce>
+</xml>
+2016-06-13 11:25:03 D 
+<xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[5IrywgCXXRbgtTF+NrR2jdiXUszA7ElZEIyqmgwFB2izzkA4xcs74QPMKjmj6z3jW07/PDYBrII+Pba/OABrHqf/Hp8Pwhl/OYqcJ22fJAK/SgThVIDOmEahuOUeUO8M1/VBVnXM0ir6RWvg7go7qVxCovikfkpujw+PHxi2OkNqsstt5EAb6FokFox9VovBrM66lz9eYnP8l7z3vIHh+b9Dv4DEX8iHmtmplsCmglgZo6WrkiCnR9P5sIqB05YLoLk0IZXWBIyAzh9ia957T+L0/ezqp+DmPMTLGlLIx0iGYVvgRYvN5oNzSQMDyri5Bi8KwUsfTyu7tKXx79NrOxxi0QKSjGGO7s00ppBZiGfuD0gMpk7FDMxnnlOe03AOC3dQZKnlMO1j1+fboRtahE15/7mz1fg2Tvr6DtsRno0Zc9HGja11W0CY35Tsv1GkOJqL7b84Pxa3Z9GQMxfHF6pNGeyFxkLlGWtYx9EpUy0DKoCrA/IcIJ7xiZHisBF4OdJW9GJ10v706X/6H1QsMyx6WyEn/mrYBNVFiM6OWDBq1MK++jDAu+TlNgwc0B5eim9HGnh+TNh6L2l+eMKgPA==]]></Encrypt>
+</xml>
+
+2016-06-13 11:25:03 R 
+<xml><ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+<FromUserName><![CDATA[ozy4qt1eDxSxzCr0aNT0mXCWfrDE]]></FromUserName>
+<CreateTime>1465788306</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[QUERY_AUTH_CODE:queryauthcode@@@Wjbc1ecmo8GRKaW8yMSsSkhZSoITLygreodWjCyCJqLt32AIyaZuEgU4UTCpo779JjjtulYWJYs_h6MgpF9n1Q]]></Content>
+<MsgId>6295512837533673884</MsgId>
+</xml>
+2016-06-13 11:25:03 E 
+<xml>
+<Encrypt><![CDATA[or8yhlV7rnPbI06ZjX+m7+JHP9eOTq2tCAdte2c66sm5a76BrYk9TnJc72wctBVeD/kjt0KMY09qmBWYM5XJww==]]></Encrypt>
+<MsgSignature><![CDATA[ccff33a9907cdfe6844319d2d99c6ae87ad11d1c]]></MsgSignature>
+<TimeStamp>1465788303</TimeStamp>
+<Nonce><![CDATA[1586857177]]></Nonce>
+</xml>
+2016-06-13 11:25:03 R 
+<xml>
+<Encrypt><![CDATA[or8yhlV7rnPbI06ZjX+m7+JHP9eOTq2tCAdte2c66sm5a76BrYk9TnJc72wctBVeD/kjt0KMY09qmBWYM5XJww==]]></Encrypt>
+<MsgSignature><![CDATA[ccff33a9907cdfe6844319d2d99c6ae87ad11d1c]]></MsgSignature>
+<TimeStamp>1465788303</TimeStamp>
+<Nonce><![CDATA[1586857177]]></Nonce>
+</xml>
+2016-06-13 11:25:10 http://open.daoqidata.com/wxopen/msg.php?appid=/wx570bc396a51b8ff8&signature=b9e65ebaa4dd4a4202c0d121d7bdf5bfb5b31c58&timestamp=1465788314&nonce=1409639762&openid=ozy4qt1eDxSxzCr0aNT0mXCWfrDE&encrypt_type=aes&msg_signature=61a99c63f6e51e4635781ae9b2081d034eb992ac
+2016-06-13 11:25:10 D 
+<xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[5TPJCkV1eUh7tNNiUhqiSaFP6vrxL5+YxI2bos9ldpiQpZHu1nuxNBICGyvmWFMbGxw/7FsDOrqbpn+Nc1dLmkzwJcX78w6CbrSTCNdAaWFwfGgNI9zbYZ2AdoB7Fd8kmV4Ox8VxFJK0+ZymJFn9INaTRDxV5B9sPNop7+FQY30sNl/AvO5mWb5XtQlIi6LzPrqOnqBoLJaRYA4CCGmhX+doZsLQ73wXskLe1gurKMzj1gig9h2dsvBcKwg8ER60yPgdJyDSMcBQS1Sb9qW7fJtbPef/5Fvg3F7oMUHiSj6RsXAdn/SPJCx/OG58NGKM18rJ9ZJhRcGmVPqeNXpFQr1Xv3bJrUyFDyrENQ6MtflSBHk2eSHyQNNaCDL5e6yPbJl4xsgJDRBXMCd88ipgfka7e4DdCnczz+RJ8cuMDu+23IQvDm9J8M9Qv0iW1/VVdMP8NK/dUx+1z2uXTYZQOQ==]]></Encrypt>
+</xml>
+
+2016-06-13 11:25:10 R 
+<xml><ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+<FromUserName><![CDATA[ozy4qt1eDxSxzCr0aNT0mXCWfrDE]]></FromUserName>
+<CreateTime>1465788313</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[TESTCOMPONENT_MSG_TYPE_TEXT]]></Content>
+<MsgId>6295512867598444957</MsgId>
+</xml>
+2016-06-13 11:25:10 E 
+<xml>
+<Encrypt><![CDATA[5pUYcm9qR3vDG2aYcpqgSbJ3kCH+GTLqNYrKrGO6Vjcs4a3p1pwYp571BvSasBji1XPryYjcWLDs3P1NHqGFxqGhBdwPvfEQ9S62ngLPShGn22MZTXhXheRPGsAvvqVynv+yOzFFYIdolqpN6CA40RV3NI6Ixm2PHGsG/s4U1PQtPySTYnnuGRDo4ETtEHmETF8jnzr8t1gzLXw2bAEvLEWw7y/Tlu+iW2MrDESplWZHbydIuBXnucFhgXtbcbe36h8gZBq/c+sIute+ehBwErtqqo4Kdg40R8+WFynP3b9dthJAH5PRt2tyf1g+hWhWez7stzVcaclWH37qcDtLB4ESgriJj/iHbXC1JfGP1aCt4l5a+ASZgjEklmuKCsOhvPMtjKqAP0vmjLpQXB6rLfstpkesPk/KvdcvYD1V9ds=]]></Encrypt>
+<MsgSignature><![CDATA[bc9d54fb8d3128dfb19fecf334066a26f4cbbbd0]]></MsgSignature>
+<TimeStamp>1465788310</TimeStamp>
+<Nonce><![CDATA[1409639762]]></Nonce>
+</xml>
+2016-06-13 11:25:10 R 
+<xml>
+<Encrypt><![CDATA[5pUYcm9qR3vDG2aYcpqgSbJ3kCH+GTLqNYrKrGO6Vjcs4a3p1pwYp571BvSasBji1XPryYjcWLDs3P1NHqGFxqGhBdwPvfEQ9S62ngLPShGn22MZTXhXheRPGsAvvqVynv+yOzFFYIdolqpN6CA40RV3NI6Ixm2PHGsG/s4U1PQtPySTYnnuGRDo4ETtEHmETF8jnzr8t1gzLXw2bAEvLEWw7y/Tlu+iW2MrDESplWZHbydIuBXnucFhgXtbcbe36h8gZBq/c+sIute+ehBwErtqqo4Kdg40R8+WFynP3b9dthJAH5PRt2tyf1g+hWhWez7stzVcaclWH37qcDtLB4ESgriJj/iHbXC1JfGP1aCt4l5a+ASZgjEklmuKCsOhvPMtjKqAP0vmjLpQXB6rLfstpkesPk/KvdcvYD1V9ds=]]></Encrypt>
+<MsgSignature><![CDATA[bc9d54fb8d3128dfb19fecf334066a26f4cbbbd0]]></MsgSignature>
+<TimeStamp>1465788310</TimeStamp>
+<Nonce><![CDATA[1409639762]]></Nonce>
+</xml>
+2016-06-13 11:25:10 D 
+<xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[5TPJCkV1eUh7tNNiUhqiSaFP6vrxL5+YxI2bos9ldpiQpZHu1nuxNBICGyvmWFMbGxw/7FsDOrqbpn+Nc1dLmkzwJcX78w6CbrSTCNdAaWFwfGgNI9zbYZ2AdoB7Fd8kmV4Ox8VxFJK0+ZymJFn9INaTRDxV5B9sPNop7+FQY30sNl/AvO5mWb5XtQlIi6LzPrqOnqBoLJaRYA4CCGmhX+doZsLQ73wXskLe1gurKMzj1gig9h2dsvBcKwg8ER60yPgdJyDSMcBQS1Sb9qW7fJtbPef/5Fvg3F7oMUHiSj6RsXAdn/SPJCx/OG58NGKM18rJ9ZJhRcGmVPqeNXpFQr1Xv3bJrUyFDyrENQ6MtflSBHk2eSHyQNNaCDL5e6yPbJl4xsgJDRBXMCd88ipgfka7e4DdCnczz+RJ8cuMDu+23IQvDm9J8M9Qv0iW1/VVdMP8NK/dUx+1z2uXTYZQOQ==]]></Encrypt>
+</xml>
+
+2016-06-13 11:25:10 R 
+<xml><ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+<FromUserName><![CDATA[ozy4qt1eDxSxzCr0aNT0mXCWfrDE]]></FromUserName>
+<CreateTime>1465788313</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[TESTCOMPONENT_MSG_TYPE_TEXT]]></Content>
+<MsgId>6295512867598444957</MsgId>
+</xml>
+2016-06-13 11:25:10 E 
+<xml>
+<Encrypt><![CDATA[00OvIdTOD1O1eD9MkKfJLwp6folg/mTYE+tVWGNKTTqgJTLWX7QmWw3N2duzirNip8pOarWpj46hQ0yIShTmsHDkBE2JSwfURJO3VFNgk/I+KtOThs4nDbaw+ifmdko2V8LXtsTFXY+/Y42GQ08UjSAQYpvlmF4H3cqy5xeBE/eCRFMaKRqJbqBbg4HnxmQq1In2ZFXW9HkUnoAvYdHEWqTzS2Z68kuc9rQTgZ25Q5h9e1gGm191xZf8RVH9crure84oW4XO03X4Rlowsrz0+2/QvRAA0O19zhRd9nlu549Gx94ChVlMX0bPKMIFrMvYHPy55QG2sx3QfKLcVguEXRnioIllz9TxJ7hcp5U7afoi/NnZxr91vkXEJSDDySxCfTt/uuRB3RTUSBNEPQ91OdJ1Z/p/e3pkaiq15vHHnyo=]]></Encrypt>
+<MsgSignature><![CDATA[b7389952b222022c9289eac62e5da400d9eb0551]]></MsgSignature>
+<TimeStamp>1465788310</TimeStamp>
+<Nonce><![CDATA[1409639762]]></Nonce>
+</xml>
+2016-06-13 11:25:10 R 
+<xml>
+<Encrypt><![CDATA[00OvIdTOD1O1eD9MkKfJLwp6folg/mTYE+tVWGNKTTqgJTLWX7QmWw3N2duzirNip8pOarWpj46hQ0yIShTmsHDkBE2JSwfURJO3VFNgk/I+KtOThs4nDbaw+ifmdko2V8LXtsTFXY+/Y42GQ08UjSAQYpvlmF4H3cqy5xeBE/eCRFMaKRqJbqBbg4HnxmQq1In2ZFXW9HkUnoAvYdHEWqTzS2Z68kuc9rQTgZ25Q5h9e1gGm191xZf8RVH9crure84oW4XO03X4Rlowsrz0+2/QvRAA0O19zhRd9nlu549Gx94ChVlMX0bPKMIFrMvYHPy55QG2sx3QfKLcVguEXRnioIllz9TxJ7hcp5U7afoi/NnZxr91vkXEJSDDySxCfTt/uuRB3RTUSBNEPQ91OdJ1Z/p/e3pkaiq15vHHnyo=]]></Encrypt>
+<MsgSignature><![CDATA[b7389952b222022c9289eac62e5da400d9eb0551]]></MsgSignature>
+<TimeStamp>1465788310</TimeStamp>
+<Nonce><![CDATA[1409639762]]></Nonce>
+</xml>
+2016-06-13 11:25:16 http://open.daoqidata.com/wxopen/msg.php?appid=/wx570bc396a51b8ff8&signature=102afb4c3be74a5b11cd6bc068a0033c6099e53f&timestamp=1465788320&nonce=1209832522&openid=ozy4qt1eDxSxzCr0aNT0mXCWfrDE&encrypt_type=aes&msg_signature=01602b5734c7a2d1b7b3fccba599ec7324006510
+2016-06-13 11:25:16 D 
+<xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[fbYEgXAW3bYrtcPpoZNuGxmnZ2dYLm+7XobwmDjIgEMo3qRk6gQ5VKOou4+7nXxpO0wfwoVZ/cOlx64FgVTZeAqGB4Y+589uefi3ACmzPhqQt26SpYNiHr0hyBLwnLSxx7arJNuQ/IeR8NZCL4He3m0NXGEvPAcg37ba5LH21skNQZtj+caVOt7v8pU/DFnEuBiYsJQpf0iEdXjQigNkiwhJsZPxsX0JLwo6yXPA7z8B3JaI4f9APJFclIRwInxSQW3XA51GLqD+m8+BRDUPnBjBFv1inv/CUncOzGRyVl8uN6D70At69QycxRhokIxH+Dv7w8OEzbTYOj3ZYiwbR7gQO6xdKG9ZK/PU3G4SZblGxx5pMa5I++L6/6SVCX9jPGoMmKj8SVpHLtO/dDN9HLTum9vbnThmsr5/ACmG+XkmJBlbkywdeQ8+s2BR03pBoZmTmF8dMhDetMGblVZBFjI41gdWvs5WDjiinF+5+xGOV6D1pVyadqfUix7xmhre]]></Encrypt>
+</xml>
+
+2016-06-13 11:25:16 R 
+<xml><ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+<FromUserName><![CDATA[ozy4qt1eDxSxzCr0aNT0mXCWfrDE]]></FromUserName>
+<CreateTime>1465788320</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>111.000000</Latitude>
+<Longitude>222.000000</Longitude>
+<Precision>333.000000</Precision>
+</xml>
+2016-06-13 11:25:16 E 
+<xml>
+<Encrypt><![CDATA[e4RtUGBlPRXvjmlmGm89PyJTipwix8l5U5fGeKn9Bk1UM24VOOOIYPqzP5wVrBXHoah8ca4bEJeEmOh62EpEsazS7VWqohMOoz4bm2D2wYp83A+D+Ze2QU3Omg+B6z3EUZRfr5bRWhWl91tqUxGOYh/U0Zbs13fE001QyPyCVMEGjhINaHmas0Fw5ab77wjte71QXtzYIv0XuXQ8Q2yseW/b3qDyixsw/nwSv6FtsBQHO8A4AN4z8JShjisQNtnKtTGiNwZ0s8WGew4YxBFOAKkNDS+BaJIJRdRa0TThgSYfv2QQ/aqHw48+cNniFB+kVXWBHboEQhyQDjHbmuiD2cakKJeHWXItwhPBxBZT9bOkNo2YqrcHSn8nk8tiHoRwZJwijLq1+HAdLq9wUrj+G5KanBCRKlQi0lVW6CRg3xg=]]></Encrypt>
+<MsgSignature><![CDATA[414762c168b0ee434db37370aceb70081d94b40b]]></MsgSignature>
+<TimeStamp>1465788316</TimeStamp>
+<Nonce><![CDATA[1209832522]]></Nonce>
+</xml>
+2016-06-13 11:25:16 R 
+<xml>
+<Encrypt><![CDATA[e4RtUGBlPRXvjmlmGm89PyJTipwix8l5U5fGeKn9Bk1UM24VOOOIYPqzP5wVrBXHoah8ca4bEJeEmOh62EpEsazS7VWqohMOoz4bm2D2wYp83A+D+Ze2QU3Omg+B6z3EUZRfr5bRWhWl91tqUxGOYh/U0Zbs13fE001QyPyCVMEGjhINaHmas0Fw5ab77wjte71QXtzYIv0XuXQ8Q2yseW/b3qDyixsw/nwSv6FtsBQHO8A4AN4z8JShjisQNtnKtTGiNwZ0s8WGew4YxBFOAKkNDS+BaJIJRdRa0TThgSYfv2QQ/aqHw48+cNniFB+kVXWBHboEQhyQDjHbmuiD2cakKJeHWXItwhPBxBZT9bOkNo2YqrcHSn8nk8tiHoRwZJwijLq1+HAdLq9wUrj+G5KanBCRKlQi0lVW6CRg3xg=]]></Encrypt>
+<MsgSignature><![CDATA[414762c168b0ee434db37370aceb70081d94b40b]]></MsgSignature>
+<TimeStamp>1465788316</TimeStamp>
+<Nonce><![CDATA[1209832522]]></Nonce>
+</xml>
+2016-06-13 11:25:16 D 
+<xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[fbYEgXAW3bYrtcPpoZNuGxmnZ2dYLm+7XobwmDjIgEMo3qRk6gQ5VKOou4+7nXxpO0wfwoVZ/cOlx64FgVTZeAqGB4Y+589uefi3ACmzPhqQt26SpYNiHr0hyBLwnLSxx7arJNuQ/IeR8NZCL4He3m0NXGEvPAcg37ba5LH21skNQZtj+caVOt7v8pU/DFnEuBiYsJQpf0iEdXjQigNkiwhJsZPxsX0JLwo6yXPA7z8B3JaI4f9APJFclIRwInxSQW3XA51GLqD+m8+BRDUPnBjBFv1inv/CUncOzGRyVl8uN6D70At69QycxRhokIxH+Dv7w8OEzbTYOj3ZYiwbR7gQO6xdKG9ZK/PU3G4SZblGxx5pMa5I++L6/6SVCX9jPGoMmKj8SVpHLtO/dDN9HLTum9vbnThmsr5/ACmG+XkmJBlbkywdeQ8+s2BR03pBoZmTmF8dMhDetMGblVZBFjI41gdWvs5WDjiinF+5+xGOV6D1pVyadqfUix7xmhre]]></Encrypt>
+</xml>
+
+2016-06-13 11:25:16 R 
+<xml><ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+<FromUserName><![CDATA[ozy4qt1eDxSxzCr0aNT0mXCWfrDE]]></FromUserName>
+<CreateTime>1465788320</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>111.000000</Latitude>
+<Longitude>222.000000</Longitude>
+<Precision>333.000000</Precision>
+</xml>
+2016-06-13 11:25:16 E 
+<xml>
+<Encrypt><![CDATA[yUXEO/eIADNaxhlVjdE5UZ2RSpPjzLUp0sjozfFBgJaUsWTNFqbl2CRjbsE7DjBM7uRlBMA94Tr0WnR4j3D5cDSb4du86C/d/QVP3/YWl0oUBTBkHAqdMLJYSgMA5nm8ZtwvmOubqTzzALUrOfibD+pUbueGvGbJ/EBdm89HmnsyPzel7AjYccmLBqis2xsTJ9xR/nIpfsXBsdj6Cog5QIDQj+f64YkYtkd5dnO4ZHSaw6wQnU2Jhzwnm3IiqJJ5qu6UuZ5TC5NMiEHNWiMTFtpuLR8fBvjSEpP3hO9G9dXvnQl97S16kVM2Nt2iYlH5fVZzGOqwH6acaiRF5Dkcuz3VhhSzrCM+Pg9xFgbnNMVmmcGtDN1ExkTHunrDA0XwKA8m+Xn2RNJIQS6avqbiziTXF1rX45xQoJySKuHhzTs=]]></Encrypt>
+<MsgSignature><![CDATA[77130e544975b6b3bd5843fef78f4d22d29467b4]]></MsgSignature>
+<TimeStamp>1465788316</TimeStamp>
+<Nonce><![CDATA[1209832522]]></Nonce>
+</xml>
+2016-06-13 11:25:16 R 
+<xml>
+<Encrypt><![CDATA[yUXEO/eIADNaxhlVjdE5UZ2RSpPjzLUp0sjozfFBgJaUsWTNFqbl2CRjbsE7DjBM7uRlBMA94Tr0WnR4j3D5cDSb4du86C/d/QVP3/YWl0oUBTBkHAqdMLJYSgMA5nm8ZtwvmOubqTzzALUrOfibD+pUbueGvGbJ/EBdm89HmnsyPzel7AjYccmLBqis2xsTJ9xR/nIpfsXBsdj6Cog5QIDQj+f64YkYtkd5dnO4ZHSaw6wQnU2Jhzwnm3IiqJJ5qu6UuZ5TC5NMiEHNWiMTFtpuLR8fBvjSEpP3hO9G9dXvnQl97S16kVM2Nt2iYlH5fVZzGOqwH6acaiRF5Dkcuz3VhhSzrCM+Pg9xFgbnNMVmmcGtDN1ExkTHunrDA0XwKA8m+Xn2RNJIQS6avqbiziTXF1rX45xQoJySKuHhzTs=]]></Encrypt>
+<MsgSignature><![CDATA[77130e544975b6b3bd5843fef78f4d22d29467b4]]></MsgSignature>
+<TimeStamp>1465788316</TimeStamp>
+<Nonce><![CDATA[1209832522]]></Nonce>
+</xml>
+2016-06-13 13:23:10 http://open.daoqidata.com/wxopen/msg.php?appid=/wx570bc396a51b8ff8&signature=3fcffa50b6fd669d05fcc9076f4698bd9c6a4749&timestamp=1465795394&nonce=1236715442&openid=ozy4qt1eDxSxzCr0aNT0mXCWfrDE&encrypt_type=aes&msg_signature=893d891e4a289cdba42600fe058efea84a59d23b
+2016-06-13 13:23:10 D 
+<xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[/y9E4eLxftWQP4TtC0hOqh/6gEDCjVNiGYfk1XC07qEpfszJDYQBewrGKtVMBmpvh/6vjwTF4OLgcbcVll1zvy4TI6cvLU2Ah/Bh9BlfDiIo/7kE3wC4DSUyWq+Q5BtGtuJXLajuf4eIzW49s9Itg5UUxH8E54EnY31UIYYd95xRMOlGAlpky6YzJYWtoKwUecwdEDYxtftxJ4CIrIz8B9/xdm+esuSSPaHo8BqkQB6IJSA2XY9KBawU4zRO5gU5Z2g2IbTUI7QVHEY53hRNAA2rezdT0lk57MAPiXy8y8/yHvpLNVciklVpoL0JoVqitA9GODJpprFujpWSzIpTFDjEP8Aj1N4VXtMA9p9S3PWS7zFDMhcb3EXyaP4zdH/99h0WG1MpJhH3KFfGUCundFe/5vqBoFv2WwIBjxcZiEtvMh7JWJ2K5F7qgDHD4I51uGGkrCFQ+MS4mee5KASHpUHuD802enp1D+4L7C6HM+1KAwREnhOsq54HRwQd0m2IgCLqusBK+C4mkZmiPcdidUZVosdIM8SyUbzumHsHxizxyapBigdm9hAVwBLuW3u3r0BxXBTo8PgrDxVNFY4EZQ==]]></Encrypt>
+</xml>
+
+2016-06-13 13:23:10 R 
+
+2016-06-13 13:23:10 E 
+<xml>
+<Encrypt><![CDATA[tMrvH+HsnHsvrwcBRx3yN7kge7Htr1lLxMmGeYY9HZs77js7SPpnCTUB9kxKdojBFtUr4pRclQY3dKR4zNk5UQ==]]></Encrypt>
+<MsgSignature><![CDATA[5f48181d7075a3dbaf76b3bd58bb147d9ff7c19b]]></MsgSignature>
+<TimeStamp>1465795390</TimeStamp>
+<Nonce><![CDATA[1236715442]]></Nonce>
+</xml>
+2016-06-13 13:23:10 R 
+<xml>
+<Encrypt><![CDATA[tMrvH+HsnHsvrwcBRx3yN7kge7Htr1lLxMmGeYY9HZs77js7SPpnCTUB9kxKdojBFtUr4pRclQY3dKR4zNk5UQ==]]></Encrypt>
+<MsgSignature><![CDATA[5f48181d7075a3dbaf76b3bd58bb147d9ff7c19b]]></MsgSignature>
+<TimeStamp>1465795390</TimeStamp>
+<Nonce><![CDATA[1236715442]]></Nonce>
+</xml>
+2016-06-13 13:23:17 http://open.daoqidata.com/wxopen/msg.php?appid=/wx570bc396a51b8ff8&signature=71a5547a0dbfb510729cfc794396b2611cec56d1&timestamp=1465795401&nonce=944728008&openid=ozy4qt1eDxSxzCr0aNT0mXCWfrDE&encrypt_type=aes&msg_signature=c05277056f4b23335851d6b21077d01d227af409
+2016-06-13 13:23:17 D 
+<xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[91o8rljqi94GTHgqc3uE8mKd0nVFJeabMGetGivzpN9kq7k17LvB+zK8Zw5BcDzveUo0lFCWp/sLuTV8/iaGXfvl9pM6PV1sie7gaMzmqhnN0I1u1jhHJWV4YL/mGnMoxLzFIqePHQPDl9YD3+wlABzmcMII5V1tgyuqiKuX7jWbyy5Aj1LUoVBzSn5FHYUloTnW3XiJZiyBAUPAIDM7IhqPYQMvW+5Ee05rtLU0jh9ZycpEDuhiib+buEMJwLenQO6ddrpXwUKtXDGnaXLgaXPjTtLPp9xSWP7zWApUr2ku700kCTj/7Yt4QcIW4WnE3Rug1BEcru5ciIrRGtqOmVBEKFjSZLmgPyJJZa/RXczyirz0HVcaA6Ti/Cf21rj0grvbBljAf/GhKg8m7wVmsu3OpvQ8ejNCS8g2s+VCwmVJBeBqqyx6+C6tB2zsGKUMC9/FVRS4Ib2fmpyGlMlKIg==]]></Encrypt>
+</xml>
+
+2016-06-13 13:23:17 R 
+
+2016-06-13 13:23:17 E 
+<xml>
+<Encrypt><![CDATA[uu2pJvhG5rb5xndmphxJbkmy/+XFoRoqKouwIiixMvXpweLGir6lEaM9UJ/776J9ouB1uunlkUfg0ih+/sg/7A==]]></Encrypt>
+<MsgSignature><![CDATA[eaf6b0f399929de596ea4b6be10dda0dc92d011e]]></MsgSignature>
+<TimeStamp>1465795397</TimeStamp>
+<Nonce><![CDATA[944728008]]></Nonce>
+</xml>
+2016-06-13 13:23:17 R 
+<xml>
+<Encrypt><![CDATA[uu2pJvhG5rb5xndmphxJbkmy/+XFoRoqKouwIiixMvXpweLGir6lEaM9UJ/776J9ouB1uunlkUfg0ih+/sg/7A==]]></Encrypt>
+<MsgSignature><![CDATA[eaf6b0f399929de596ea4b6be10dda0dc92d011e]]></MsgSignature>
+<TimeStamp>1465795397</TimeStamp>
+<Nonce><![CDATA[944728008]]></Nonce>
+</xml>
+2016-06-13 13:23:23 http://open.daoqidata.com/wxopen/msg.php?appid=/wx570bc396a51b8ff8&signature=0f43a33149da0465b95839f74e100b65e8b812de&timestamp=1465795407&nonce=668263494&openid=ozy4qt1eDxSxzCr0aNT0mXCWfrDE&encrypt_type=aes&msg_signature=ebb0b273feaf2a78fd96ee0c3a041cd1293aa584
+2016-06-13 13:23:23 D 
+<xml>
+    <ToUserName><![CDATA[gh_3c884a361561]]></ToUserName>
+    <Encrypt><![CDATA[fLMN8ZyjwPEpJfI+U+tFD5qnfEyeKec2FT6d9TGzNG8zFJWPqVANOiS1XEzTy7JP3ZeLO12trGFnoHIgk1AaUuBxhKNzNcWcRV1275RXPlHqWM6t+bfJlK430LlHU45Y+oScA3hwIzipdwet71kGJ3HL0+/pCPOpKJI5SgFYTojllHHe4zWc7iyh5CpLML56D+PtVG9p+KFAuDLPOdoyC2mx9+Ap/9xmo4WeiTgvNeoGb5bgZ+ATyuot6+5TnI9/RwBmv2U0vGr8PbuoSPWJe9ScRX663lOLm6W7jMtIG/bc/UwQXgOnxyBToFPTGElzdgfuJ37mwEzYRcQB4njw1vEdFb0JgdKMb3MQFMPDs1cpP21k4PS9lBuQ7eFqRXXACsr3YM+3AbnrESFhaSB+V6/6eI9vi91cx17vUddABBkZIe1yPmMEUJkpTpMTCYLdAzWCukdhYnY3ZflM7ItrKWzMemZD8QSyf8pjahX4IifkFawrKkNmGzgPPWzJMttW]]></Encrypt>
+</xml>
+
+2016-06-13 13:23:23 R 
+
+2016-06-13 13:23:23 E 
+<xml>
+<Encrypt><![CDATA[3TIJB35i/4Y+bsAxj3KL1FDpaUPpBNG8cF2rKWXLXQPowULoQ0k161i4dIYHgSY2kGJtlmV+P2eQxSRwlb0YyA==]]></Encrypt>
+<MsgSignature><![CDATA[873499b861f36798111700c1c0e3cf163646fdd5]]></MsgSignature>
+<TimeStamp>1465795403</TimeStamp>
+<Nonce><![CDATA[668263494]]></Nonce>
+</xml>
+2016-06-13 13:23:23 R 
+<xml>
+<Encrypt><![CDATA[3TIJB35i/4Y+bsAxj3KL1FDpaUPpBNG8cF2rKWXLXQPowULoQ0k161i4dIYHgSY2kGJtlmV+P2eQxSRwlb0YyA==]]></Encrypt>
+<MsgSignature><![CDATA[873499b861f36798111700c1c0e3cf163646fdd5]]></MsgSignature>
+<TimeStamp>1465795403</TimeStamp>
+<Nonce><![CDATA[668263494]]></Nonce>
+</xml>
